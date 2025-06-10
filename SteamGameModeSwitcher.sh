@@ -97,7 +97,7 @@ if [[ "$AUTOLOGIN_CHOICE" =~ ^[Yy]$ ]]; then
 [Autologin]
 User=${USER_NAME}
 Session=switcher.desktop
-Relogin=false
+Relogin=true
 [Theme]
 Current=
 EOF
