@@ -1,3 +1,8 @@
+
+![file_0000000084b46243b1c540b573038237](https://github.com/user-attachments/assets/841ae936-6a1b-44db-a29c-abd549c5dbdc)
+
+
+
 + Download the .sh file and make it executable.
 
 + Run the file in terminal
