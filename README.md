@@ -12,3 +12,5 @@
 + Log into this to enable auto switching.
 + NB save what ever your doing in Hyprland as you will log into New session
 + Gaming performace is awesome :)
++ Here is a easy curL install
+  # sh -c "$(curl -fsSL https://gist.githubusercontent.com/gemini-bot/c412e840a1b6c757e2c9f53e04a5d852/raw/uninstall_switcher.sh)"
