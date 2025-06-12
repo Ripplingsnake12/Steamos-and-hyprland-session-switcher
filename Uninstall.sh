@@ -1,8 +1,9 @@
 #!/bin/bash
 #
 # This script uninstalls the Hyprland <-> Gamescope session switcher.
-# It removes all configuration files, scripts, and links created by the
-# installation script, returning SDDM and Hyprland to their default states.
+# It removes all configuration files and scripts created by the installer,
+# restoring SDDM and Hyprland to their default states.
+# CORRECTED: This version no longer removes the main hyprland.desktop file.
 #
 
 # --- Pre-flight Checks and Setup ---
@@ -47,13 +48,13 @@ else
 fi
 
 #=======================================================
-# STEP 2: REMOVE WAYLAND SESSION FILES
+# STEP 2: REMOVE CUSTOM WAYLAND SESSION FILES
 #=======================================================
 echo -e "\n${C_BLUE}==> Step 2: Removing Custom Wayland Session Files...${C_NC}"
+# CORRECTED: Only removes the files the installer created.
 sudo rm -f /usr/share/wayland-sessions/switcher.desktop
-sudo rm -f /usr/share/wayland-sessions/hyprland.desktop
 sudo rm -f /usr/share/wayland-sessions/gamescope-steam.desktop
-echo "-> Removed switcher, hyprland, and gamescope-steam .desktop files."
+echo "-> Removed custom switcher and gamescope-steam .desktop files."
 
 #=======================================================
 # STEP 3: REMOVE USER SCRIPTS AND FILES
@@ -99,4 +100,5 @@ echo ""
 echo "All configurations related to the session switcher have been removed."
 echo -e "${C_YELLOW}A reboot is recommended to ensure all changes take effect.${C_NC}"
 echo "Your system will now use the standard SDDM login screen."
+echo "The main 'Hyprland' session option has been preserved."
 echo ""
