@@ -12,5 +12,5 @@
 + Log into this to enable auto switching.
 + NB save what ever your doing in Hyprland as you will log into New session
 + Gaming performace is awesome :)
-+ Here is easy install CurL
+  
 # Remember and make the .sh executable 
