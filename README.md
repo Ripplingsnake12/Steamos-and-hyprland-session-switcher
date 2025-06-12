@@ -14,5 +14,6 @@
 + Gaming performace is awesome :)
 + If you update your hyprland config just rerun the installer to set everything up again :)
 + For some reason if you dont love great gaming performance run the uninstaller to remove all files installed and leave your hyprland.desktop file intact.
++ There is a second install .sh this is if you want to use steamos beta, steam has a habit of reseting to stable this shell script will stip it doing so.
   
 # Remember and make the .sh executable 
