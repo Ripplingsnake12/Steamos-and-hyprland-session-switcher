@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Create the directory structure.
+# The -p flag ensures that parent directories are created if they don't exist.
+mkdir -p ~/.steam/root/config
+
+# Create a symbolic link for the Steam configuration.
+# This makes ~/.steam/config point to ~/.steam/root/config.
+ln -sf ~/.steam/root/config ~/.steam/config
+
+# Create a symbolic link for the Steam installation in the local share directory.
+# This makes ~/.local/share/Steam point to ~/.steam.
+ln -sf ~/.steam ~/.local/share/Steam
+
+# Change the ownership of the directories to the current user and their primary group.
+# The -R flag makes the ownership change recursive for all files and directories inside.
+chown -R $USER:$USER ~/.steam ~/.local/share/Steam
+
+echo "Steam directories and symbolic links created successfully."
