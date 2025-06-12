@@ -13,5 +13,6 @@
 + NB save what ever your doing in Hyprland as you will log into New session
 + Gaming performace is awesome :)
 + If you update your hyprland config just rerun the installer to set everything up again :)
++ For some reason if you dont love great gaming performance run the uninstaller to remove all files installed and leave your hyprland.desktop file intact.
   
 # Remember and make the .sh executable 
