@@ -12,5 +12,6 @@
 + Log into this to enable auto switching.
 + NB save what ever your doing in Hyprland as you will log into New session
 + Gaming performace is awesome :)
++ If you update your hyprland config just rerun the installer to set everything up again :)
   
 # Remember and make the .sh executable 
