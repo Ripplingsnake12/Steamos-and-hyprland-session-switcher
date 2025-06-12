@@ -49,7 +49,7 @@ SERVICE_OVERRIDE_FILE="$SERVICE_OVERRIDE_DIR/override.conf"
 
 # Package lists
 OFFICIAL_PACKAGES=( "hyprland" "wofi" "sddm" )
-AUR_PACKAGES=( "gamescope" "gamescope-session-git" "gamescope-session-steam-git" )
+AUR_PACKAGES=( "gamescope" "gamescope-session-git" "gamescope-session-steam-git" "steam" "mangohud" )
 
 #=======================================================
 # STEP 1: DEPENDENCY INSTALLATION
